@@ -1,0 +1,59 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/*
+.env
+.env.*.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/.DS_Store
+/.sass-cache
+/.cache
+/.turbo
+/public/hot
+/public/mix-manifest.json
+/public/build
+/public/js
+/public/css
+
+# Laravel Vite + Inertia + React
+/resources/js/.vite
+/resources/js/dist
+/resources/js/node_modules
+
+# Compiled Vite assets
+/vite.config.js
+/vite.config.ts
+
+# Laravel storage
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Optional OS/Editor/Tool-specific ignores
+.DS_Store
+Thumbs.db
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Log files
+*.log
+
+# Build output
+/build
+
+# NPM/PNPM/Yarn lock
+pnpm-lock.yaml
